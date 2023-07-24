@@ -275,4 +275,5 @@ jobs:
         asset_path: '${{ github.workspace }}/frida/build/frida-android-arm64/lib/frida/64/frida-gadget.so.xz'
         asset_name: 'hluda-gadget-${{ needs.check_version.outputs.FRIDA_VERSION }}-android-arm64.so.xz'
         asset_content_type: application/octet-stream
+        allowUpdates: true
    
